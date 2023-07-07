@@ -148,4 +148,14 @@ print(alcohol(18,4))
 print(alcohol(17,5))
 print(alcohol(17,4))
 
+
 print(nl())
+#LISTS -Have brackets []
+movies = ["When Harry Met Sally", "The Hangover", "The Perks of Being a Wallflower", "The Exorcist"]
+
+print(movies[1]) #returns the second item in the list
+print(movies[0]) #returns the first item in the list
+print(movies[1:3]) #return the first index number given right until the last number, but not include the last number
+print(movies[1:])
+print(movies[:1]) #colon works as "up until, number"
+print(movies[-1])
