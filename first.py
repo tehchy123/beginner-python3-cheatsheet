@@ -189,3 +189,21 @@ print(nl())
 grades = ("a", "b", "c", "d", "e", "f")
 
 print(grades[1])
+
+
+print(nl())
+#LOOPING
+
+#For loops - start to finish of an iterate
+vegetables = ["cucumber", "spinach", "cabbage"]
+for x in vegetables:
+    print(x)
+
+print(nl())
+#While loops - execute as long as boolean is Tru
+i = 1
+
+while i < 10:
+    print(i)
+    i += 1
+
