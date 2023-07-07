@@ -36,7 +36,7 @@ print(quote.lower()) #lowercase
 print(quote.title()) #title case
 print(len(quote)) #counts characters
 
-name = "Nishant" #string
+name = "Tehchy" #string
 age = 15 #int
 score = 97.5 #float - has a decimal
 
@@ -58,7 +58,7 @@ print("\n")
 #FUNCTIONS
 
 def who_am_i(): #this is a function without perameters
-    name = "Nishant" #loal variable
+    name = "Tehchy" #loal variable
     age = 30
     print("My name is " + name + " and I am " + str(age) + " years old.")
 
@@ -207,3 +207,39 @@ while i < 10:
     print(i)
     i += 1
 
+
+print(nl())
+#ADVANCED STRINGS
+
+my_name = "Tehchy"
+print(my_name[0]) #first letter
+print(my_name[-1]) #last letter
+
+print(nl())
+
+sentence = "This is a sentence"
+print(sentence[:4])
+print(sentence.split()) #delimeter - default is a space
+sentence_split = sentence.split()
+sentence_join = " ".join(sentence_split)
+print(sentence_join)
+
+quote = 'He said, "give me all your money"'
+print(quote)
+quote = "He said, \"give me all your money\""
+print(quote)
+
+too_much_space = "                             Hello                  "
+print(too_much_space.strip())
+
+print("A" in "Apple") #True
+print("a" in "Apple") #False
+
+letter = "A"
+word = "Apple"
+print(letter.lower() in word.lower()) #improved
+
+movie = "The Matrix"
+print("My favourite movie is {}.".format(movie))
+print("My favourite movie is %s." % movie)
+print(f"My favourite movie is {movie}.")
