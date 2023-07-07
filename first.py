@@ -158,4 +158,27 @@ print(movies[0]) #returns the first item in the list
 print(movies[1:3]) #return the first index number given right until the last number, but not include the last number
 print(movies[1:])
 print(movies[:1]) #colon works as "up until, number"
-print(movies[-1])
+print(movies[-1]) #return last iten in list
+
+print(len(movies)) #count items in the list
+movies.append("JAWS")
+print(movies)
+
+movies.insert(2, "HUSTLE")
+print(movies)
+
+movies.pop() #removes the last item
+print(movies)
+
+movies.pop(0) #removes the first item
+print(movies)
+
+amber_movies = ["Just Go With It", "50 First Dates"]
+our_favourite_movies = movies + amber_movies
+print(our_favourite_movies)
+
+grades = [["Bob", 82], ["Allice", 90], ["Jeff", 73]]
+bobs_grade = grades[0][1]
+print(bobs_grade)
+grades[0][1] = 83
+print(grades)
