@@ -182,3 +182,10 @@ bobs_grade = grades[0][1]
 print(bobs_grade)
 grades[0][1] = 83
 print(grades)
+
+
+print(nl())
+#TUPLES - Do not change, uses ()
+grades = ("a", "b", "c", "d", "e", "f")
+
+print(grades[1])
